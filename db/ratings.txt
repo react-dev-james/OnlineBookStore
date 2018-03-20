@@ -1,0 +1,52 @@
+db.ratings.insert([
+  { "isbn":"978-0399536496",
+  	"ratings":[
+  	{ "ratee_id": "oman2483",
+    "rater_id": "rios31969",
+    "score": NumberInt(2)},
+    { "ratee_id": "hris79",
+    "rater_id": "hlin43266",
+    "score":  NumberInt(2)},
+    {"ratee_id": "ardy46329",
+    "rater_id": "witz646",
+    "score": NumberInt(2)}
+  	]
+   
+  },
+  {
+    "isbn": "978-0833030474",
+    "rating":[
+    	{ "ratee_id": "elge4953",
+    "rater_id": "y P.337",
+    "score":  NumberInt(2)},
+    	{  "ratee_id": "elge4953",
+    "rater_id": "Z B.6745",
+    "score":  NumberInt(5)},
+    	{ "ratee_id": "uBay81",
+    "rater_id": "'kson11803",
+    "score":  NumberInt(7)}
+    ]
+   
+    
+  },
+  {"isbn": "978-1461002505",
+  "rating":[{"ratee_id": "'eman30",
+    "rater_id": "'aBee7020",
+    "score":  NumberInt(4)},{
+    "ratee_id": "'niel553",
+    "rater_id": "'G.L.99142",
+    "score":  NumberInt(7)},{ "ratee_id": "'niel553",
+    "rater_id": "'olli347",
+    "score":  NumberInt(9)}]
+  },
+  
+  {
+   "isbn": "978-1936976027",
+   "rating":[{"ratee_id": "'oner94",
+    "rater_id": "'nsky552",
+    "score":  NumberInt(9)},{"ratee_id": "'ings9871",
+    "rater_id": "'uvic31018",
+    "score":  NumberInt(7)}]
+   
+  }
+])

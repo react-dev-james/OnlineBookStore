@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,2BAA2B;EAC1B,MAAM,EAAC,aAAa;;AAGrB,WAAW;EACV,KAAK,EAAC,GAAG",
+"sources": ["shipment.scss"],
+"names": [],
+"file": "shipment.css"
+}

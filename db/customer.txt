@@ -1,0 +1,218 @@
+db.customer.insert([
+  {
+    "address": "Bloomfield, CT United States",
+    "cc_no": "6144046721257440",
+    "login_id": "ruso61440",
+    "phone_num": "86891563",
+    "name": "N. Caruso",
+    "password": "614Bl"
+  },
+  {
+    "address": "New York",
+    "cc_no": "2483192448579420",
+    "login_id": "oman2483",
+    "phone_num": "83078477",
+    "name": "Wandrwoman",
+    "password": "248319Ne"
+  },
+  {
+    "address": "Tzer Island ",
+    "cc_no": "7975291622534320",
+    "login_id": "hris79",
+    "phone_num": "94466012",
+    "name": "TChris",
+    "password": "797T"
+  },
+  {
+    "address": "Redwood City, CA USA ",
+    "cc_no": "4632963069597290",
+    "login_id": "ardy46329",
+    "phone_num": "90279803",
+    "name": "Jill Clardy",
+    "password": "4632Red"
+  },
+  {
+    "address": "Texas",
+    "cc_no": "4953947247797230",
+    "login_id": "elge4953",
+    "phone_num": "94106323",
+    "name": "Wayne Crenwelge",
+    "password": "495Tex"
+  },
+  {
+    "address": "Coupeville, WA, United States ",
+    "cc_no": "8125569204762990",
+    "login_id": "uBay81",
+    "phone_num": "97593078",
+    "name": "William H. DuBay",
+    "password": "812556Cou"
+  },
+  {
+    "address": "England",
+    "cc_no": "3010874005717750",
+    "login_id": "eman30",
+    "phone_num": "84447116",
+    "name": "Charles Freeman",
+    "password": "301087E"
+  },
+  {
+    "address": "Lawrence, KS ",
+    "cc_no": "5535225123898520",
+    "login_id": "niel553",
+    "phone_num": "91148663",
+    "name": "Ldaniel",
+    "password": "553522La"
+  },
+  {
+    "address": "SAN FRANCISCO, CA United States",
+    "cc_no": "9451077842446650",
+    "login_id": "oner94",
+    "phone_num": "90750732",
+    "name": "James Wagoner",
+    "password": "94510S"
+  },
+  {
+    "address": "columbia, SC United States ",
+    "cc_no": "9871767291944790",
+    "login_id": "ings9871",
+    "phone_num": "90490764",
+    "name": "John D. Geddings",
+    "password": "9871col"
+  },
+  {
+    "address": "Virginia ",
+    "cc_no": "3196911795101690",
+    "login_id": "rios31969",
+    "phone_num": "90549890",
+    "name": "Demetrios",
+    "password": "319691V"
+  },
+  {
+    "address": "Chicago ",
+    "cc_no": "4326609534498330",
+    "login_id": "hlin43266",
+    "phone_num": "98051067",
+    "name": "Steve Bohlin",
+    "password": "432660Ch"
+  },
+  {
+    "address": "Yorktown, NY",
+    "cc_no": "6462528689935870",
+    "login_id": "witz646",
+    "phone_num": "85875122",
+    "name": "Paul Moskowitz",
+    "password": "6462Yo"
+  },
+  {
+    "address": "Tucson, AZ United States ",
+    "cc_no": "3374242119074030",
+    "login_id": "y P.337",
+    "phone_num": "90858394",
+    "name": "Jerry P.",
+    "password": "337424T"
+  },
+  {
+    "address": "Medellìn, Antioquia COLOMBIA ",
+    "cc_no": "6745815452478440",
+    "login_id": "Z B.6745",
+    "phone_num": "97480373",
+    "name": "JUAN C. GUTIERREZ B.",
+    "password": "674581Med"
+  },
+  {
+    "address": "Portland, OR United States ",
+    "cc_no": "1180317188680790",
+    "login_id": "kson11803",
+    "phone_num": "98171440",
+    "name": "Will Errickson",
+    "password": "118P"
+  },
+  {
+    "address": "Florida",
+    "cc_no": "7020645094567850",
+    "login_id": "aBee7020",
+    "phone_num": "81144414",
+    "name": "BarbaraBee",
+    "password": "70206F"
+  },
+  {
+    "address": "Black Hills ",
+    "cc_no": "9914274002317940",
+    "login_id": "G.L.99142",
+    "phone_num": "81444583",
+    "name": "G.L.",
+    "password": "9914Bl"
+  },
+  {
+    "address": "Mt. Prospect, IL United States",
+    "cc_no": "3470258333005800",
+    "login_id": "olli347",
+    "phone_num": "81775555",
+    "name": "Katherine Molli",
+    "password": "347025Mt"
+  },
+  {
+    "address": "Arlington Height, IL USA ",
+    "cc_no": "5523914431361080",
+    "login_id": "nsky552",
+    "phone_num": "91041922",
+    "name": "Chris Buczinsky",
+    "password": "552391Ar"
+  },
+  {
+    "address": "New York City",
+    "cc_no": "3101811565486880",
+    "login_id": "uvic31018",
+    "phone_num": "94021896",
+    "name": "Linda Linguvic",
+    "password": "3101N"
+  },
+  {
+    "address": "CA USA",
+    "cc_no": "3073256361719190",
+    "login_id": "urci30732",
+    "phone_num": "98775362",
+    "name": "Grace Furci",
+    "password": "307325C"
+  },
+  {
+    "address": "Chicago ",
+    "cc_no": "2172475084323540",
+    "login_id": "adit21",
+    "phone_num": "99669115",
+    "name": "Ireadit",
+    "password": "21724Chi"
+  },
+  {
+    "address": "USA",
+    "cc_no": "5834844522243040",
+    "login_id": "sher583",
+    "phone_num": "99666936",
+    "name": "Craig Fisher",
+    "password": "5834U"
+  },
+  {
+    "address": "Carolinas ",
+    "cc_no": "7504945171679000",
+    "login_id": "ames750",
+    "phone_num": "92759062",
+    "name": "Rick James",
+    "password": "7504C"
+  },
+  {
+    "address": "Provo, UT USA ",
+    "cc_no": "1904686139331080",
+    "login_id": "llan19",
+    "phone_num": "89133459",
+    "name": "Nathan Allan",
+    "password": "190468Pro"
+  },
+  {
+    "address": "Michigan ",
+    "cc_no": "6168299749387450",
+    "login_id": "hman61682",
+    "phone_num": "95423799",
+    "name": "alex bushman",
+    "password": "616829Mi"
+  }
+])

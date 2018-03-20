@@ -1,0 +1,21 @@
+.cart-container .row .table thead {
+  background: indianred;
+  color: white;
+  font-size: 18px; }
+.cart-container .row .table tbody .cart-item td .media .media-left {
+  width: 20%;
+  max-width: 100px; }
+.cart-container .row .table tbody .cart-item .total, .cart-container .row .table tbody .cart-item .remove-item, .cart-container .row .table tbody .cart-item .price {
+  text-align: center; }
+.cart-container .row .table tbody .cart-item .remove-item .btn {
+  background-color: #B00000;
+  background-color: white;
+  color: darkred;
+  border: none; }
+.cart-container .row .table tbody .table-footer td .btn-checkout {
+  background-color: #008080; }
+.cart-container .row .table tbody .table-footer td .btn-continue {
+  color: white;
+  background-color: #C0227C; }
+
+/*# sourceMappingURL=cart.css.map */

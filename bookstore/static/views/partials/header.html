@@ -1,0 +1,35 @@
+<nav class="sidebar navbar navbar-inverse header-container" ng-controller="headerCtrl">
+  <div class="container-fluid">
+  <a data-toggle="offcanvas" ng-click="toggleSideBar()" id="sidebar-toggle" class="glyphicon glyphicon-list side-nav-link" style="
+	    float: left;
+	"></a>
+    <div class="navbar-header">
+    	
+      <a class="navbar-brand" href="#">Online Book Store</a>
+      
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav navbar-right nav-pills">
+      <li ><a class="nav-links" href="#/bookstore">Home <span class="glyphicon glyphicon-home"></span></a></li>
+      <li ><a class="nav-links cart-link" href="#/bookstore/cart">Cart <span class="glyphicon glyphicon-shopping-cart"></span><span class="cart-count badge">{{cart.count}}</span></a></li>
+      <li ><a class="nav-links" href="#/about">About <span class="glyphicon glyphicon-info-sign"></span></a></li> 
+     <!-- <li ng-mouseenter='showSubList=true' ng-mouseleave='showSubList=false'><a class="nav-links dropdown-toggle" data-toggle="dropdown" href="#/profile">Hi, Siddhi <span class="glyphicon glyphicon-user"></span></a></li> -->
+     <li class="dropdown-1">
+       <a class="dropdown-toggle nav-links" data-toggle="dropdown">Hi, Siddhi <b class="glyphicon glyphicon-user"></b></a>
+          <ul class="dropdown-menu sublist">
+            <li><span class="glyphicon glyphicon-user icon"></span><a href="#/profile">My Account</a></li>
+            <li><span class="glyphicon glyphicon-glass icon"></span><a href="#/orders">My Orders</a></li>
+            <li><span class="glyphicon glyphicon-heart icon" ></span><a href="#/user/wishlist">My Wishlist</a></li>
+            
+          </ul>
+
+     </li>
+    </ul>
+    <div class-'sub-menu'>
+   
+    </div>
+    </div>
+  </div>
+</nav>
+
+

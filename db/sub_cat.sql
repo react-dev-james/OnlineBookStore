@@ -1,0 +1,1 @@
+INSERT INTO Sub_Category(cat_id,name ) VALUES (1,"Action & Adventure"),(1,"Indian Fiction"),(2,"Business"),(2," Politicians & Leaders"),(3,"Economics"),(3,"Human Resources"),(4,"Classic Stories"),(5,"Mystery & Thrillers"),(6,"Movies"),(7,"Child Care & Parenting"),(8,"General"),(9,"Ancient"),(9,"Current Affairs");

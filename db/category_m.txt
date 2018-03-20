@@ -1,0 +1,83 @@
+db.categories.insert( { _id: "MongoDB", parent: "Databases" } )
+db.categories.insert( { _id: "dbm", parent: "Databases" } )
+db.categories.insert( { _id: "Databases", parent: "Programming" } )
+db.categories.insert( { _id: "Languages", parent: "Programming" } )
+db.categories.insert( { _id: "Programming", parent: "Books" } )
+db.categories.insert( { _id: "Books", parent: null } )
+
+
+db.categories.insert( { _id: "Action & Adventure", parent: "Fiction" } )
+db.categories.insert( { _id: "Indian Fiction", parent: "Fiction" } )
+db.categories.insert( { _id: "Politicians & Leaders", parent: "Biography" } )
+db.categories.insert( { _id: "Economics", parent: "Business & Management" } )
+db.categories.insert( { _id: "Classic Stories", parent: "Children" } )
+db.categories.insert( { _id: "Mystery & Thrillers", parent:"Fiction" } )
+
+
+
+db.categories.insert( [
+  {
+    "_id": "Fiction",
+	parent:null
+  },
+  {
+    "_id": "Biography",
+	parent:null
+  },
+  {
+    "_id": "Business & Management",
+	parent:null
+  },
+  {
+    "_id": "Children",
+	parent:null
+  },
+  {
+    "_id": "Fiction",
+	parent:null
+  },
+  {
+    "_id": "Film",
+	parent:null
+  },
+  {
+    "_id": "Health",
+	parent:null
+  },
+  {
+    "_id": "Non Fiction",
+	parent:null
+  }] )
+
+  
+  
+  db.categories.insert( [
+  {
+    "_id": "Business",
+	parent:"Business and managment"
+  },
+  {
+    "_id": "Human Resource",
+	parent:"Business and management"
+  },
+  {
+    "_id": "Movies",
+	parent:"films"
+  },
+  {
+    "_id": "Child care and parenting",
+	parent:"Health"
+  },
+  {
+    "_id": "General",
+	parent:"Children"
+  },
+  {
+    "_id": "Ancient",
+	parent:"Non fiction"
+  },
+  {
+    "_id": "Current affairs",
+	parent:"Non fiction"
+  }] )
+  

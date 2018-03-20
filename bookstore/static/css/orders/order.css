@@ -1,0 +1,42 @@
+.order-dashboard .order-main-header {
+  padding: 0 0 0 45px;
+  width: 100%; }
+  .order-dashboard .order-main-header .order-title {
+    font-size: x-large; }
+.order-dashboard .order-all .order-header .order-detail-btn .btn-black a {
+  color: white;
+  text-decoration: none; }
+
+.btn-black, .btn-black:hover {
+  color: #fff;
+  background-color: #333;
+  border-color: #333; }
+  .btn-black a, .btn-black:hover a {
+    color: white;
+    text-decoration: none; }
+
+.order-container .order-main {
+  padding: 35px 0 35px 0; }
+  .order-container .order-main .order-header {
+    border-radius: 5px;
+    background-color: #eadbc8; }
+    .order-container .order-main .order-header .row-upper {
+      font-size: larger; }
+    .order-container .order-main .order-header .order-id {
+      float: right; }
+  .order-container .order-main .order-summary {
+    background-color: #f1e7da;
+    border-radius: 5px; }
+    .order-container .order-main .order-summary .media .media-left {
+      height: 100%;
+      width: 10%; }
+    .order-container .order-main .order-summary .media .media-body {
+      padding: 0 10px 0 10px; }
+      .order-container .order-main .order-summary .media .media-body .media-heading {
+        font-size: medium; }
+    .order-container .order-main .order-summary .order-components {
+      padding: 10px; }
+    .order-container .order-main .order-summary .order-detail-btn {
+      margin-top: 3%; }
+
+/*# sourceMappingURL=order.css.map */

@@ -1,0 +1,466 @@
+
+  db.books.insert([{
+    "category_id": "Politicians and leaders",
+    "available_copies":NumberInt(5),
+    "isbn": "978-1401312855",
+    "authors": [
+      "Mitch Albom"
+    ],
+    "publisher": "Hachette Books",
+    "title": "The Time Keeper",
+    "yop": new Date(12,12,2013),
+    "price": 8.42,
+    "image_loc": "bookstore/static/assets/coverimages/12343.png",
+    "subject": "Religion",
+    "keywords": "Time, Christian",
+    "format": "Paperback"
+  },
+  {
+    "category_id": "Economics",
+    "available_copies": NumberInt(3),
+    "isbn": "978-0143125471",
+    "authors": [
+      "Daniel James Brown"
+    ],
+    "publisher": "Penguin Books",
+    "title": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+    "yop": new Date(12,12,2013),
+    "price": 9.49,
+    "image_loc": "bookstore/static/assets/coverimages/12343.png",
+    "subject": "Sports & Outdoors",
+    "keywords": "Canoeing",
+    "format": "Paperback"
+  },
+  {
+    "category_id": "Business",
+    "available_copies": NumberInt(6),
+    "isbn": "978-1476764832",
+    "authors": [
+      "Audrey Niffenegger"
+    ],
+    "publisher": "Scribner",
+    "title": "The Time Travelers Wife",
+    "yop":new Date(12,12,2013),
+    "price": 14.28,
+    "image_loc": "bookstore/static/assets/coverimages/45656.png",
+    "subject": "Science Fiction",
+    "keywords": "Time Travel",
+    "format": "Paperback"
+  },
+  {
+    "category_id":"Business",
+    "available_copies": NumberInt(4),
+    "isbn": "978-1400033805",
+    "authors": [
+      "Charles Freeman"
+    ],
+    "publisher": "Vintage",
+    "title": "The Closing of the Western Mind: The Rise of Faith and the Fall of Reason",
+    "yop": new Date(12,12,2013),
+    "price": 13.32,
+    "image_loc": "bookstore/static/assets/coverimages/45656.png",
+    "subject": "Religion",
+    "keywords": "Culture",
+    "format": "Paperback"
+  },
+  {
+    "category_id":"Economics",
+    "available_copies": NumberInt(4),
+    "isbn": "978-0452299030",
+    "authors": [
+      "Thomas de Wesselow"
+    ],
+    "publisher": "Plume",
+    "title": "The Sign: The Shroud of Turin and the Secret of the Resurrection",
+    "yop":new Date(12,12,2013),
+    "price": 12.00,
+    "image_loc": "bookstore/static/assets/coverimages/67878.png",
+    "subject": "History",
+    "keywords": "Christian",
+    "format": "Hardcover"
+  },
+  {
+    "category_id": "Human Resources",
+    "available_copies":NumberInt(2),
+    "isbn": "978-0465054725",
+    "authors": [
+      "Arthur Benjamin"
+    ],
+    "publisher": "Basic Books",
+    "title": "The Magic of Math: Solving for x and Figuring Out Why",
+    "yop": new Date(12,12,2013),
+    "price": 14.84,
+    "image_loc": "bookstore/static/assets/coverimages/67878.png",
+    "subject": "History",
+    "keywords": "Mathematics",
+    "format": "Hardcover"
+  },
+  {
+    "category_id": "Human Resources",
+    "available_copies": NumberInt(4),
+    "isbn": "978-1848162730",
+    "authors": [
+      "Michael M. Woolfson"
+    ],
+    "publisher": "World Scientific Publishing Company",
+    "title": "Time, Space, Stars & Man: The Story of the Big Bang",
+    "yop":new Date(12,12,2013),
+    "price": 83.0,
+    "image_loc": "bookstore/static/assets/coverimages/67878.png",
+    "subject": "Science",
+    "keywords": "Cosmology",
+    "format": "Paperback"
+  },
+  {
+    "category_id": "Human Resources",
+    "available_copies": NumberInt(10),
+    "isbn": "978-0062409850",
+    "authors": [
+      "Harper Lee"
+    ],
+    "publisher": "Harper",
+    "title": "Go Set a Watchman: A Novel",
+    "yop":new Date(12,12,2013),
+    "price": 15.00,
+    "image_loc": "bookstore/static/assets/coverimages/76809.png",
+    "subject": "Literature",
+    "keywords": "Classics , Atticus , Scott",
+    "format": "Hardcover"
+  },
+  {
+    "category_id": "Classic stories",
+    "available_copies": NumberInt(2),
+    "isbn": "978-0446310789",
+    "authors": [
+      "Harper Lee"
+    ],
+    "publisher": "Harper",
+    "title": "To Kill a Mockingbird",
+    "yop": new Date(12,12,2013),
+    "price": 5.15,
+    "image_loc": "bookstore/static/assets/coverimages/76809.png",
+    "subject": "Literature",
+    "keywords": "Classics, Atticus, Scott",
+    "format": "Paperback"
+  },
+  {
+    "category_id": "Mystary and thrillers",
+    "available_copies": NumberInt(2),
+    "isbn": "978-0743477116",
+    "authors": [
+      "William Shakespeare"
+    ],
+    "publisher": "Simon & Schuster",
+    "title": "Romeo and Juliet Folger Shakespeare Library",
+    "yop": new Date(12,12,2013),
+    "price": 3.68,
+    "image_loc": "bookstore/static/assets/coverimages/76809.png",
+    "subject": "Literature",
+    "keywords": "Classics, Plays",
+    "format": "Paperback"
+  },
+  {
+    "category_id":"Movies",
+    "available_copies": NumberInt(2),
+    "isbn": "978-0399501487",
+    "authors": [
+      "William Golding"
+    ],
+    "publisher": "Perigee Books",
+    "title": "Lord of the Flies",
+    "yop": new Date(12,12,2013),
+    "price": 6.20,
+    "image_loc": "bookstore/static/assets/coverimages/76809.png",
+    "subject": "Literature",
+    "keywords": "Classics",
+    "format": "Paperback"
+  },
+  {
+    "category_id": "Movies",
+    "available_copies": NumberInt(8),
+    "isbn": "978-0140177398",
+    "authors": [
+      "John Steinbeck"
+    ],
+    "publisher": "Penguin Books",
+    "title": "Of Mice and Men",
+    "yop": new Date(12,12,2013),
+    "price": 7.00,
+    "image_loc": "bookstore/static/assets/coverimages/435345.png",
+    "subject": "Literature",
+    "keywords": "Classics",
+    "format": "Paperback"
+  },
+  {
+    "category_id": "Economics",
+    "available_copies": NumberInt(5),
+    "isbn": "978-0316346627",
+    "authors": [
+      "Malcolm Gladwell"
+    ],
+    "publisher": "Back Bay Books",
+    "title": "The Tipping Point: How Little Things Can Make a Big Difference",
+    "yop": new Date(12,12,2013),
+    "price": 12.55,
+    "image_loc": "bookstore/static/assets/coverimages/435345.png",
+    "subject": "Business, Psychology",
+    "keywords": "Marketing",
+    "format": "Paperback"
+  },
+  {
+    "category_id":"Classic stories",
+    "available_copies": NumberInt(3),
+    "isbn": "978-0316204361",
+    "authors": [
+      "Malcolm Gladwell"
+    ],
+    "publisher": "Little, Brown and Company",
+    "title": "David and Goliath: Underdogs, Misfits, and the Art of Battling Giants",
+    "yop": new Date(12,12,2013),
+    "price": 17.25,
+    "image_loc": "bookstore/static/assets/coverimages/12343.png",
+    "subject": "Psychology",
+    "keywords": "Success, Underdog",
+    "format": "Hardcover"
+  },
+  {
+    "category_id": "Movies",
+    "available_copies":NumberInt(5),
+    "isbn": "978-0316017923",
+    "authors": [
+      "Malcolm Gladwell"
+    ],
+    "publisher": "Little, Brown and Company",
+    "title": "Outliers: The Story of Success",
+    "yop":new Date(12,12,2013),
+    "price": 12.42,
+    "image_loc": "bookstore/static/assets/coverimages/657567.png",
+    "subject": "Psychology",
+    "keywords": "Success",
+    "format": "Hardcover"
+  },
+  {
+    "category_id": "Human Resources",
+    "available_copies": NumberInt(6),
+    "isbn": "978-0374275631",
+    "authors": [
+      "Daniel Kahneman"
+    ],
+    "publisher": "Farrar, Straus and Giroux",
+    "title": "Thinking, Fast and Slow",
+    "yop": new Date(12,12,2013),
+    "price": 19.23,
+    "image_loc": "bookstore/static/assets/coverimages/657567.png",
+    "subject": "Business, Psychology, Leadership",
+    "keywords": "Decision-Making",
+    "format": "Hardcover"
+  },
+  {
+    "category_id":"Economics",
+    "available_copies": NumberInt(26),
+    "isbn": "978-1594634475",
+    "authors": [
+      "Lauren Groff"
+    ],
+    "publisher": "Riverhead Books",
+    "title": "Fates and Furies: A Novel",
+    "yop":new Date(12,12,2013),
+    "price": 16.77,
+    "image_loc": "bookstore/static/assets/coverimages/657567.png",
+    "subject": "Family Life",
+    "keywords": "tragedy",
+    "format": "Hardcover"
+  },
+  {
+    "category_id":"Classic stories",
+    "available_copies": NumberInt(6),
+    "isbn": "978-0812993547",
+    "authors": [
+      "Ta-Nehisi Coates"
+    ],
+    "publisher": "Spiegel & Grau",
+    "title": "Between the World and Me",
+    "yop": new Date(12,12,2013),
+    "price": 14.40,
+    "image_loc": "bookstore/static/assets/coverimages/657567.png",
+    "subject": "Memoirs",
+    "keywords": "Biographies & Memoirs",
+    "format": "Hardcover"
+  },
+  {
+    "category_id": "Human Resources",
+    "available_copies": NumberInt(5),
+    "isbn": "978-0399175527",
+    "authors": [
+      "Melissa Guion"
+    ],
+    "publisher": "Philomel Books",
+    "title": "Baby Penguins Love their Mama",
+    "yop": new Date(12,12,2013),
+    "price": 6.99,
+    "image_loc": "bookstore/static/assets/coverimages/5345664.png",
+    "subject": "Humor",
+    "keywords": "Children's Books",
+    "format": "Hardcover"
+  },
+  {
+    "category_id": "Politicians and leaders",
+    "available_copies": NumberInt(4),
+    "isbn": "978-0060555665",
+    "authors": [
+      "Benjamin Graham"
+    ],
+    "publisher": "HarperBusiness",
+    "title": "The Intelligent Investor: The Definitive Book",
+    "yop": new Date(12,12,2013),
+    "price": 13.25,
+    "image_loc": "bookstore/static/assets/coverimages/5345664.png",
+    "subject": "Finance",
+    "keywords": "Business & Money",
+    "format": "Paperback"
+  },
+  {
+    "category_id":"Human Resources",
+    "available_copies": NumberInt(2),
+    "isbn": "978-07432004-12-1200",
+    "authors": [
+      "Peter Lynch"
+    ],
+    "publisher": "Simon & Schuster",
+    "title": "One Up On Wall Street",
+    "yop": new Date(12,12,2013),
+    "price": 9.55,
+    "image_loc": "bookstore/static/assets/coverimages/5345664.png",
+    "subject": "Professionals & Academics",
+    "keywords": "Business",
+    "format": "Paperback"
+  },
+  {
+    "category_id": "Mystary and thrillers",
+    "available_copies": NumberInt(2),
+    "isbn": "978-0316200608",
+    "authors": [
+      "Stacy Schiff"
+    ],
+    "publisher": "Little, Brown and Company",
+    "title": "The Witches: Salem, 1692",
+    "yop": new Date(12,12,2013),
+    "price": 17.60,
+    "image_loc": "bookstore/static/assets/coverimages/5345664.png",
+    "subject": "State & Local",
+    "keywords": "Witchcraft",
+    "format": "Hardcover"
+  },
+  {
+    "category_id": "Movies",
+    "available_copies": NumberInt(2),
+    "isbn": "978-0345542960",
+    "authors": [
+      "Janet Evanovich"
+    ],
+    "publisher": "Bantam",
+    "title": "Tricky Twenty-Two: A Stephanie Plum Novel",
+    "yop": new Date(12,12,2013),
+    "price": 15.10,
+    "image_loc": "bookstore/static/assets/coverimages/5345664.png",
+    "subject": "Mystery",
+    "keywords": "Women Sleuths",
+    "format": "Hardcover"
+  },
+  {
+    "category_id": "Movies",
+    "available_copies": "Politicians and leaders",
+    "isbn": "978-1623366322",
+    "authors": [
+      "Thug Kitchen"
+    ],
+    "publisher": "Rodale Books",
+    "title": "Thug Kitchen Party Grub",
+    "yop": new Date(12,12,2013),
+    "price": 15.59,
+    "image_loc": "bookstore/static/assets/coverimages/12343.png",
+    "subject": "Entertaining & Holidays",
+    "keywords": "Party Planning",
+    "format": "Hardcover"
+  },
+  {
+    "category_id":"Movies",
+    "available_copies": NumberInt(2),
+    "isbn": "978-0833030474",
+    "authors": [
+      "The RAND Corporation"
+    ],
+    "publisher": "American Book Publishers",
+    "title": "A Million Random Digits with 100,000 Normal Deviates",
+    "yop": new Date(12,12,2013),
+    "price": 54.1,
+    "image_loc": "bookstore/static/assets/coverimages/12343.png",
+    "subject": "Probability & Statistics",
+    "keywords": "Mathematics",
+    "format": "Hardcover"
+  },
+  {
+    "category_id": "Economics",
+    "available_copies": NumberInt(2),
+    "isbn": "978-1461002505",
+    "authors": [
+      "David Dubowski"
+    ],
+    "publisher": "CreateSpace Independent Publishing Platform",
+    "title": "A Million Random Digits THE SEQUEL: with Perfectly Uniform Distribution",
+    "yop": new Date(12,12,2013),
+    "price": 15.95,
+    "image_loc": "bookstore/static/assets/coverimages/76809.png",
+    "subject": "Probability & Statistics",
+    "keywords": "Mathematics",
+    "format": "Hardcover"
+  },
+  {
+    "category_id": "Politicians and leaders",
+    "available_copies": NumberInt(2),
+    "isbn": "978-0399536496",
+    "authors": [
+      "Graham Johnson"
+    ],
+    "publisher": "Perigee Books",
+    "title": "Images You Should Not contribute To",
+    "yop":new Date(12,12,2013),
+    "price": 9.95,
+    "image_loc": "bookstore/static/assets/coverimages/76809.png",
+    "subject": "Love & Marriage",
+    "keywords": "Humor",
+    "format": "Paperback"
+  },
+  {
+    "category_id": "Human Resources",
+    "available_copies": NumberInt(2),
+    "isbn": "978-1936976027",
+    "authors": [
+      "Meghan Doherty"
+    ],
+    "publisher": "Zest Books",
+    "title": "How Not to Be a Dick: An Everyday Etiquette Guide",
+    "yop": new Date(12,12,2013),
+    "price": 12.89,
+    "image_loc": "bookstore/static/assets/coverimages/76809.png",
+    "subject": "Social Issues",
+    "keywords": "Teens",
+    "format": "Hardcover"
+  },
+  {
+    "category_id": "Economics",
+    "available_copies":NumberInt(2),
+    "isbn": "978-1477468524",
+    "authors": [
+      "Theo Nicole Lorenz"
+    ],
+    "publisher": "CreateSpace Independent Publishing Platform",
+    "title": "Unicorns Are Jerks: a coloring book exposing the cold, hard, sparkly truth",
+    "yop": new Date(12,12,2013),
+    "price": 6.99,
+    "image_loc": "bookstore/static/assets/coverimages/76809.png",
+    "subject": "Cold Truth",
+    "keywords": "Humor",
+    "format": "Paperback"
+  }
+])

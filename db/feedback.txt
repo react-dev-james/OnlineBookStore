@@ -1,0 +1,65 @@
+db.feedback.insert([
+  {
+    "date": "2015-12-12",
+    "score": NumberInt(8),
+    "login_id": "oman2483",
+    "isbn": "978-1401312855",
+    "short_text": "Mind over matter on this one guys, if you\"re really determined, you can accomplish anything. if you can see it, you can achieve it."
+  },
+  {
+    "date": "2015-12-12",
+    "score": NumberInt(8),
+    "login_id": "hris79",
+    "isbn": "978-1401312855",
+    "short_text": "I Came: The title of this book was very deceptive. I found each image to be uniquely arousing."
+  },
+  {
+    "date": "2015-12-12",
+    "score": NumberInt(5),
+    "login_id": "ardy46329",
+    "isbn": "978-1476764832",
+    "short_text": "Directions unclear,  Would not recommend."
+  },
+  {
+    "date": "2015-12-12",
+    "score":NumberInt(10),
+    "login_id": "elge4953",
+    "isbn": "978-0812993547",
+    "short_text": "Such a terrific reference work! But with so many terrific random digits, it\"s a shame they didn\"t sort them"
+  },
+  {
+    "date": "2015-12-12",
+    "score": NumberInt(10),
+    "login_id": "uBay81",
+    "isbn": "978-1400033805",
+    "short_text": "While the printed version is good"
+  },
+  {
+    "date": "2015-12-12",
+    "score": NumberInt(7),
+    "login_id": "eman30",
+    "isbn": "978-0452299030",
+    "short_text": "Lousy even for a prank gift"
+  },
+  {
+    "date": "2015-12-12",
+    "score": NumberInt(6),
+    "login_id": "niel553",
+    "isbn": "978-0465054725",
+    "short_text": "For anyone who read \"A Million Random Digits,\" feel free to skip this book."
+  },
+  {
+    "date": "2015-12-12",
+    "score": NumberInt(8),
+    "login_id": "oner94",
+    "isbn": "978-1848162730",
+    "short_text": "The world would be more mellow, more joyful, more productive without so many dicks ruining the calm"
+  },
+  {
+    "date": "2015-12-12",
+    "score": NumberInt(10),
+    "login_id": "ings9871",
+    "isbn": "978-0062409850",
+    "short_text": "The author is a good"
+  }
+])
